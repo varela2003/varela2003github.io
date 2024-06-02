@@ -1,0 +1,169 @@
+#contenedor{
+    border:1px solid blue;   /* Colocamos un borde que indica los limites del todo el contenedor*/
+}
+
+
+#cabecera{   
+
+    background-color:#DAB6F0;
+    padding: 30px;
+    text-align: center;
+    font-family: garamond;
+}
+
+
+.izquierdo {
+	float:left; /* Propiedad flotante css, especifica cómo debe flotar un elemento*/
+    width:20%; /*Ancho sección menu*/
+    text-align:center; /*Alineación del text*/
+    padding:20px; /* Relleno */
+	background-color:#B1F0D5; /*color morado con opacidad hsla*/
+
+
+    height: 100%;/* altura */             /*Añadimos la altura para que se cubra todo*/
+    margin-top:7px; /*Margen superior*/	
+}
+
+
+.derecho {
+	float:right; /* Propiedad flotante css, especifica cómo debe flotar un elemento*/
+    width:20%; /*Ancho sección menu*/
+    text-align:center; /*Alineación del text*/
+    padding:20px; /* Relleno */
+	background-color:#C7F0B1; /*color morado con opacidad hsla*/
+
+    height: 100%;/* altura */
+    margin-top:7px; /*Margen superior*/	
+}
+* {
+    box-sizing: border-box; /*La box-sizingpropiedad CSS nos permite incluir el relleno y el borde en el ancho y alto total de un elemento*/
+  }
+.cuerpo{
+background-color:#D3F0AD;
+padding: 30px;
+text-align: justify;
+height: 100%;/* altura */
+margin-top:7px; /*Margen superior*/
+float:left; /* permite al elemento main flotar en una posicion*/
+width:60%; /* anchura del elemento */
+
+
+}
+
+
+#alinear{
+    display: flex;
+    
+    margin: 7px;
+    }
+
+
+
+ @media only screen and (max-width:620px) { /*consulta de medios especificando aplicar condiciones a la pantalla , en este caso 
+	un ancho máximo de 620px para adaptarse y no se distorsionen los elementos que hay en ella*/
+	  .izquierdo, .derecho, .cuerpo {   /* se consideran los divs que hacen la función para maquetar nuestra página, utilizando las clases .menu, .main, .right 
+	  que seran ordenados y adaptados a la pantalla */
+		width:100%;
+        height: auto;
+
+        
+        
+	  }   
+    .img{
+
+        width:100%;
+        max-width:150px;
+    }
+     
+    video{
+
+        width:100%;
+        max-width:400px;
+    }
+
+    video{
+
+        width:100%;
+        max-width:400px;
+    }
+
+    table{
+
+        width:100%;
+        max-width:400px;
+    }
+
+}
+
+.pie{
+background-color:#9997E9 ;
+text-align: center;
+padding: 10px;  
+}
+
+body{
+    background-color:aliceblue;
+}
+
+#imglogo{/*logo*/
+max-width:10%;
+   width:auto;
+   height:auto;
+   float:left;
+   }
+
+.izquierdo a {
+    background-color:hsla(191, 67%, 36%,0.3);
+    padding:8px;
+    margin-top:7px;
+    display:block;
+    width:100%;
+    color:black;
+    font-weight:bold;
+    text-algin:center;
+    text-decoration:none;
+    font-size:20px;
+}
+.izquierdo a:hover{
+    background-color: hsla(0.4, 100%, 50%, 0.1);
+    color:black;
+    font-size:20px;
+}
+body{
+    background-image: url("imagenes/12.jpeg");
+}
+h1{
+    
+    font-size:40px;
+    color:black;
+    font-style: DM Serif Display;
+    text-align: center;
+}
+h2,h3,h4{
+    font-size:30px;
+    color:black;
+    font-family: MS Serif;
+}
+h5{
+    font-size: 20px;
+}
+p{
+
+    font-size:18px;
+    text-align: justify;
+    font-family: Georgia;
+}
+.img{
+    display:block;
+    margin-left: auto;
+    margin-right:auto ;
+    
+}
+.class1{
+width: 400px;
+    height: 300px;
+}
+.class3{
+   width: 100px;
+    height: 100px; 
+}
